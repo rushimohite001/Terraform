@@ -32,7 +32,7 @@ resource "aws_security_group" "golden_image_source_sg" {
     from_port = 0
     to_port = 0
     protocol = "-1"
-    cidr_blocks = ["0.0.0.0/0"]  # Allow all outbound traffic for simplicity (adjust based on your needs)
+    cidr_blocks = ["0.0.0.0/0"]  # Allow all outbound traffic for simplicity(adjust based on your infra needs)
   }
 }
 
