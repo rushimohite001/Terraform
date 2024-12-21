@@ -67,6 +67,5 @@ resource "aws_instance" "golden_image_source" {
   }
 }
 
-output "mypublicIP" {
-  value = aws_instance.golden_image_source.public_ip
-}
+
+
